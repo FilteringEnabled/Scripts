@@ -112,3 +112,12 @@ local Button = Tab:CreateButton({
 		loadstring(game:HttpGet("https://pastebin.com/raw/WkZwcGjf", true))()
 	end,
 })
+local Button = Tab:CreateButton({
+	Name = "Rejoin",
+	Callback = function()
+		local tpservice= game:GetService("TeleportService")
+local plr = game.Players.LocalPlayer
+
+tpservice:Teleport(game.PlaceId, plr)
+	end,
+})
