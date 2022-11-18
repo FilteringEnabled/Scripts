@@ -100,3 +100,9 @@ local Button = Tab:CreateButton({
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/Lazy_Dex.lua"))()
 	end,
 })
+local Button = Tab:CreateButton({
+	Name = "TP Unanchored Parts",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/WkZwcGjf", true))()
+	end,
+})
