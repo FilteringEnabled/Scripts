@@ -372,6 +372,7 @@ end
 function Destroy(instance)
 	spawn(function()
 		game:GetService("ReplicatedStorage").DeleteCar:FireServer(instance)
+game:GetService("Players").LocalPlayer.Backpack.HandlessSegway.RemoteEvents.DestroySegway:FireServer(instance)
 	end)
 end
 
